@@ -22,6 +22,7 @@ body{
 #header{
     background-color: #1C2321;
     padding: 8px 8px;
+    width: 100%;
     
 }
 .container{
@@ -35,7 +36,13 @@ body{
     margin-right: 20%;
     
 }
-
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+    color: #EEF1EF;
+}
 #navbtn{
     border-radius: 30px;
     padding: 8px 20px 8px 20px;
@@ -45,6 +52,7 @@ body{
 }
 .wrapper{
     display: flex;
+    
 }
 #hero{
     
@@ -58,7 +66,6 @@ body{
     border-radius: 4px;
     padding: 15px 40px;
     
-
 }
 h1{
     
@@ -121,3 +128,86 @@ p{
 #contact{
     padding: 8px;
 }
+#navbar-icon{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.wrapper .sidebar{
+    width: 200px;
+    height: 100%;
+    background: #7D98A1;
+    padding: 30px 0px;
+    position:fixed;
+  }
+
+.wrapper .sidebar ul li a{
+    color: #EEF1EF;
+    display: block;
+    padding: 20px;
+    padding-left: 20px;
+    
+}
+.wrapper .sidebar ul li a .fas{
+    width: 25px;
+}
+.wrapper .sidebar ul li:hover{
+    
+    box-shadow: 1px 1px 5px;
+}
+.wrapper .sidebar ul li:hover a{
+    color: #fff;
+}
+.main_content{
+    width: 84%;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 205px;
+    padding: 20px;
+    
+    position:fixed;
+    display:block;
+    
+    background-color: #E0E0CE;
+    border-radius: 5px;
+   
+}
+.group-container{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+}
+.group{
+    background-color: #1C2321;
+    color: #1C2321;
+    width: 200px;
+    height: 140px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+    display: block;
+
+    margin: 10px;
+}
+.main_content .group a{
+    color: #1C2321;
+    background-color: #fff;
+    padding: 5px 10px;
+    width: 100%;
+    
+}
+.main_content .group a:hover{
+    box-shadow: 1px 1px 5px;
+}
+.main_content .group p{
+    color: #1C2321;
+}
+.main_content .group h3{
+    color: #1C2321;
+}
+#total-products{
+    background-color: #F2AF29;
+}
+
+ 
